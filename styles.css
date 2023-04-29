@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit; }
+  
+  html {
+    box-sizing: border-box; }
+    @media (max-width: 75em) {
+      html {
+        font-size: 75%; } }
+    @media (max-width: 56.25em) {
+      html {
+        font-size: 60%; } }
+    @media (min-width: 112.5em) {
+      html {
+        font-size: 90%; } }
+  
+  body {
+    background-color: #f9faf6;
+    font-family: 'Cormorant', serif; }
+  
