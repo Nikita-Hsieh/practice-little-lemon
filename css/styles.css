@@ -44,3 +44,19 @@ a:active {
   display: flex;
   flex-direction: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Solid border */
+divider {
+  border-top: 1.5px solid #ababab;
+  padding: 15px;
+}
