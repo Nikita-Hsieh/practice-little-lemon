@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Little Lemon</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     
@@ -14,39 +14,46 @@
             <img src="/images/Asset 16@4x.png" alt="LOGO" width="400">
         </div>
 
-        <nav class="nav">
-            <a href="#">Home</a>
-            <a href="#">Menu</a>
-            <a href="#">Book</a>
-            <a href="#">About</a>
+        <nav class="nav-container">
+            <a class="nav-item" href="#">Home</a>
+            <a class="nav-item" href="#">Menu</a>
+            <a class="nav-item" href="#">Book</a>
+            <a class="nav-item" href="#">About</a>
         </nav>
     </header>
 
     <main>
+        <!-- Home Section -->
         <section class="home">
-            <h2>Great Food, Great Experience</h2>
-            <img src="/images/intro.jpg" alt="Home Backgroung" width="1000">
+            <div class="home-bg">
+                <img class="home-bg-img" src="/images/intro.jpg" alt="Home Backgroung" width="1000">
+            </div>
+            <h2 class="home-content">Great Food, <br>&nbsp;&nbsp;Wonderful Experience</h2> 
         </section>
+
+        <!-- Ads Banner Section -->
         <section class="banner"></section>
-        <section class="category-container">
-            <div class="category-item menu">
-                <h3>Our Menu</h3>
-                <img src="/images/menu.jpg" alt="menu" width="400">
-                <p>
+
+        <!-- Subject Section -->
+        <section class="subject-container">
+            <div class="subject-item menu">
+                <h3 class="subject-title">Our Menu</h3>
+                <img class="subject-img" src="/images/menu.jpg" alt="menu" width="350" height="200">
+                <p class="subject-describe">
                     Looking for a typical Italian menu? This menu is just one in the Italian restaurant menus collection from undiscovered and wild La Maremma in Tuscany and Lazio.
                 </p>
             </div>
-            <div class="category-item book">
-                <h3>Our Menu</h3>
-                <img src="/images/book.jpg" alt="Book a table" width="400">
-                <p>
+            <div class="subject-item book">
+                <h3 class="subject-title">Book A Table</h3>
+                <img class="subject-img" src="/images/book.jpg" alt="Book a table" width="350" height="200">
+                <p class="subject-describe">
                     Looking for a typical Italian menu? This menu is just one in the Italian restaurant menus collection from undiscovered and wild La Maremma in Tuscany and Lazio.
                 </p>
             </div>
-            <div class="category-item open">
-                <h3>Our Menu</h3>
-                <img src="/images/menu.jpg" alt="open hours" width="400">
-                <p>
+            <div class="subject-item open">
+                <h3 class="subject-title">Open Hour</h3>
+                <img class="subject-img" src="/images/menu.jpg" alt="open hours" width="350" height="200">
+                <p class="subject-describe">
                     Looking for a typical Italian menu? This menu is just one in the Italian restaurant menus collection from undiscovered and wild La Maremma in Tuscany and Lazio.
                 </p>
             </div>
